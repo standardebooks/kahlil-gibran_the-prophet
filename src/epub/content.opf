@@ -53,6 +53,8 @@
 		<link href="https://github.com/standardebooks/kahlil-gibran_the-prophet" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Kahlil Gibran</dc:creator>
 		<meta property="file-as" refines="#author">Gibran, Kahlil</meta>
+		<meta property="schema:alternateName" refines="#author">Gibran Kahlil Gibran</meta>
+		<meta property="alternate-script" refines="#author">جُبْرَان خَلِيل جُبْرَان</meta>
 		<link href="https://en.wikipedia.org/wiki/Kahlil_Gibran" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79095627.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
@@ -62,6 +64,7 @@
 		<dc:contributor id="transcriber-1">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Widger, David</meta>
 		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-1" rel="schema:sameAs"/>
+		<link href="https://www.gutenberg.net.au/widger/home.html" refines="#transcriber-1" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Srijoni Sen</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Sen, Srijoni</meta>
